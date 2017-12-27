@@ -1,0 +1,24 @@
+{
+  "name": "storefront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "storeConnection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarishaw/storefront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarishaw/storefront/issues"
+  },
+  "homepage": "https://github.com/jarishaw/storefront#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "mysql": "^2.15.0",
+    "prompt": "^1.0.0"
+  }
+}
