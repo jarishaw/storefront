@@ -1,4 +1,5 @@
 # storefront
 
-1. This application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
-![](images/store1.PNG)
+1. Application will first display all of the items available for sale. Includes ids, names, and prices of products for 
+sale.
+![](images/img1.PNG)
