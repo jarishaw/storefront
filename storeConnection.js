@@ -30,7 +30,7 @@ function showProducts() {
 			.prompt([
 				{
 					name: "choice",
-					type: "list",
+					type: "rawlist",
 					choices: function() {
 						var choiceArray = [];
 						for (var i = 0; i < results.length; i++){
@@ -40,7 +40,7 @@ function showProducts() {
 						return choiceArray;
 					},
 
-					message: "What product would you like to buy?"
+					message: "Select the ID of the product you would like to buy."
 				},
 				{
 					name: "qty",
