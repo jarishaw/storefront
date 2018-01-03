@@ -75,7 +75,7 @@ function showProducts() {
 							}], function(error,res) {
               					if (error) throw err;
               					console.log("Items Available!! Total Cost of Purchase: $" + (chosenItem.price * parseInt(answer.qty)));
-              					showProducts();
+              					
               				}
               			);
 					} else {
